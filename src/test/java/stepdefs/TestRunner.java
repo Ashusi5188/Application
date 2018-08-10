@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         tags = {"@TC001"}
 )*/
 @CucumberOptions(features = "src/test/resources/features", // Test scenarios
-        glue = {"src.test.java.stepdefs"}, // Steps definitions
+        glue = {"stepdefs"}, // Steps definitions
         tags={"@TC001"}
 )
 /*@CucumberOptions(features = {"src/test/resources/features"},
