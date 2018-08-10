@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         tags = {"@TC001"}
 )*/
 @CucumberOptions(features = "src/test/resources/features", // Test scenarios
-        glue = {"cucumber.stepdefs"}, // Steps definitions
+        glue = {"src.test.java.stepdefs"}, // Steps definitions
         format = {"pretty", // Cucumber report formats and location to store them in phone/emulator
                 "html:/mnt/sdcard/cucumber-reports/cucumber-html-report",
                 "json:/mnt/sdcard/cucumber-reports/cucumber.json",
