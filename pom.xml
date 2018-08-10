@@ -55,7 +55,7 @@
                 <version>2.22.0</version>
                 <configuration>
                     <includes>
-                        <include>TestRunner.java</include>
+                        <include>stepdefs.TestRunner</include>
                     </includes>
                 </configuration>
             </plugin>
