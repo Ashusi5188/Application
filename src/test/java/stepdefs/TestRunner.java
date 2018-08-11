@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-         glue = {"classpath/stepdefs"},
+         glue = {"stepdefs"},
         tags = {"@TC001"}
 )
 /*@CucumberOptions(features = "src/test/resources/features", // Test scenarios
