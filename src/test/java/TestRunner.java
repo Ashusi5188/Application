@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         tags = {"@TC001"},
-         glue = {"stepdefs"}
+         glue = {""}
         
 )
 /*@CucumberOptions(features = "src/test/resources/features", // Test scenarios
