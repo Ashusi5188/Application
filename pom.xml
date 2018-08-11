@@ -75,7 +75,7 @@
                 <version>2.22.0</version>
                 <configuration>
                     <includes>
-                        <include>stepdefs.TestRunner</include>
+                        <include>TestRunner</include>
                     </includes>
                 </configuration>
             </plugin>
