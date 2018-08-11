@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         tags = {"@TC001"},
-         glue = {"CalculatorStepDefinition","classpath:stepdefs"}
+         glue = {"classpath:stepdefs"},
+        monochrome = true
         
 )
 /*@CucumberOptions(features = "src/test/resources/features", // Test scenarios
