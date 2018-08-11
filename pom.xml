@@ -78,7 +78,7 @@
                         <include>TestRunner</include>
                     </includes>
                 </configuration>
-            </plugin>
+                 </plugin>
         </plugins>
     </build>
 
