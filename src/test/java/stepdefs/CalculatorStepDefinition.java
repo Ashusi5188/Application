@@ -19,7 +19,7 @@ public class CalculatorStepDefinition {
     @When("^User enter first number$")
     public void userEnterFirstNumber()  {
 
-          //  calc.enter3();
+           calc.enter3();
 
 
     }
