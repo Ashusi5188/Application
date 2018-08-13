@@ -3,7 +3,7 @@ package Window;
 public class Calculator extends AppBase {
     public Calculator()  {
         //control.run("C:\\Program Files (x86)\\Sicyon calculator\\SicyonCalc.exe");
-        //control.run("C:\\Windows\\System32\\calc.exe");
+        control.run("C:\\Windows\\System32\\calc.exe");
       control.winActivate("Calculator");
        control.winWaitActive("Calculator");
     }
