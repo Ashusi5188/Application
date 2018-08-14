@@ -22,7 +22,7 @@ public class Calculator  {
         System.setProperty(LibraryLoader.JACOB_DLL_PATH, file.getAbsolutePath());
 
         AutoItX x = new AutoItX();
-         x.run("C:\\Windows\\System32\\calc.exe");
+        x.run("C:\\Windows\\System32\\calc.exe");
         x.winActivate("Calculator");
         x.winWaitActive("Calculator");
        
