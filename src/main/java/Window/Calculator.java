@@ -22,10 +22,10 @@ public class Calculator  {
         System.setProperty(LibraryLoader.JACOB_DLL_PATH, file.getAbsolutePath());
 
         AutoItX x = new AutoItX();
-        x.run("calc.exe");
+         x.run("C:\\Windows\\System32\\calc.exe");
         x.winActivate("Calculator");
         x.winWaitActive("Calculator");
-        x.run("C:\\Windows\\System32\\calc.exe");
+       
     }
    /* public Calculator()  {
         //control.run("C:\\Program Files (x86)\\Sicyon calculator\\SicyonCalc.exe");
