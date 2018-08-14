@@ -5,7 +5,7 @@ public class Calculator extends AppBase {
         //control.run("C:\\Program Files (x86)\\Sicyon calculator\\SicyonCalc.exe");
         control.run("C:\\Windows\\System32\\calc.exe");
         //control.run("\\opt\\tomcat\\temp\\notepad++.exe");
-      control.winActivate("Calculator");
+       control.winActivate("Calculator");
        control.winWaitActive("Calculator");
     }
     public void enter3() {
