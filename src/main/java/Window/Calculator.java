@@ -1,33 +1,7 @@
 package Window;
 
-import autoitx4java.AutoItX;
-import com.jacob.com.LibraryLoader;
-
-import java.io.File;
-
-public class Calculator  {
-    public static String jvmBitVersion() {
-        return System.getProperty("sun.arch.data.model");
-    }
-    public static void  call() throws InterruptedException {
-        String jacobDllVersionToUse;
-        if (jvmBitVersion().contains("64")){
-            jacobDllVersionToUse = "jacob-1.19-x86.dll";
-        }
-        else {
-            jacobDllVersionToUse = "jacob-1.19-x64.dll";
-        }
-
-        File file = new File("lib", jacobDllVersionToUse);
-        System.setProperty(LibraryLoader.JACOB_DLL_PATH, file.getAbsolutePath());
-
-        AutoItX x = new AutoItX();
-        x.run("C:\\Windows\\System32\\calc.exe");
-        x.winActivate("Calculator");
-        x.winWaitActive("Calculator");
-       
-    }
-   /* public Calculator()  {
+public class Calculator extends AppBase {
+    public Calculator()  {
         //control.run("C:\\Program Files (x86)\\Sicyon calculator\\SicyonCalc.exe");
         control.run("C:\\Windows\\System32\\calc.exe");
       control.winActivate("Calculator");
@@ -60,5 +34,5 @@ public class Calculator  {
        System.out.println(str);
         //control.controlClick("Calculator", "", "133") ;
 
-    }*/
+    }
 }
