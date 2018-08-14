@@ -8,7 +8,7 @@ public class Calculator extends AppBase {
        control.winWaitActive("Calculator");
     }
     public void enter3() {
-        control.sleep(10000);
+        control.sleep(20000);
         control.mouseClick("",440,518,1,0);
      //  control.controlClick("Sicyon calculator v5.6 (SPr001)", "3", "526782","") ;
     }
@@ -31,7 +31,7 @@ public class Calculator extends AppBase {
         Thread.sleep(5000);
         control.mouseClick("",675,184,1,0);
        String str=control.controlGetText("Calculator","","ApplicationFrameInputSinkWindow1");
-       System.out.println(str);
+       //System.out.println(str);
         //control.controlClick("Calculator", "", "133") ;
 
     }
