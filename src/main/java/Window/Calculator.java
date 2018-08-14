@@ -11,7 +11,7 @@ public class Calculator  {
     }
     public static void  call() throws InterruptedException {
         String jacobDllVersionToUse;
-        if (jvmBitVersion().contains("32")){
+        if (jvmBitVersion().contains("64")){
             jacobDllVersionToUse = "jacob-1.19-x86.dll";
         }
         else {
