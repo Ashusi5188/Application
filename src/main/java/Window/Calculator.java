@@ -29,7 +29,7 @@ public class Calculator extends AppBase {
         //control.controlClick("Calculator", "=", "461322") ;
     }
     public void close() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         control.mouseClick("",675,184,1,0);
        String str=control.controlGetText("Calculator","","ApplicationFrameInputSinkWindow1");
        System.out.println(str);
