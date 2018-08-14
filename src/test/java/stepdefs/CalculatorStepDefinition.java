@@ -8,51 +8,51 @@ import cucumber.api.java.en.When;
 
 public class CalculatorStepDefinition {
 
-    //Calculator calc = calc = new Calculator();
+    Calculator calc = calc = new Calculator();
 
     @Given("^user opens calculator application$")
     public void userOpensCalculatorApplication() throws InterruptedException {
-        Calculator.call();
+
     }
 
     @When("^User enter first number$")
     public void userEnterFirstNumber() {
 
-        //calc.enter3();
+        calc.enter3();
 
 
     }
 
     @And("^User enter plus operator$")
     public void userEnterPlusOperator() {
-       /* try {
+        try {
             calc.enterOperator();
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     @And("^User enters second number$")
     public void userEntersSecondNumber() {
-      /*  try {
+        try {
             calc.enter9();
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     @Then("^User gets result$")
     public void userGetsResult() {
-       /* try {
+        try {
             calc.enterEqual();
            calc.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-    }*/
+    }
 
 
     }
-}
+
 
