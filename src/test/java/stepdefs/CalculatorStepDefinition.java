@@ -44,6 +44,7 @@ public class CalculatorStepDefinition {
     @Then("^User gets result$")
     public void userGetsResult() {
         try {
+            //comment
             calc.enterEqual();
            calc.close();
         } catch (Exception e) {
