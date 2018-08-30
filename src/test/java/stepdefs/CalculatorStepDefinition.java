@@ -43,13 +43,13 @@ public class CalculatorStepDefinition {
 
     @Then("^User gets result$")
     public void userGetsResult() {
-        try {
+        /*try {
             //comment
             calc.enterEqual();
            calc.close();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 
