@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91214cc3-0049-4489-8dc8-08e99dd73991" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notepad++.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Window/AppBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Window/AppBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Window/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Window/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Window/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Calculator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CalculatorStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CalculatorStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +60,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="351" />
-          <entry key="java" value="1688" />
+          <entry key="java" value="1692" />
           <entry key="txt" value="23" />
           <entry key="xml" value="28" />
         </counts>
@@ -68,7 +68,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="148" />
-          <entry key="JAVA" value="1688" />
+          <entry key="JAVA" value="1692" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="Substeps" value="203" />
           <entry key="XML" value="28" />
@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="21" selection-start-line="46" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="101">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Window/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -117,22 +117,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/CalculatorStepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,11 +151,11 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/CalculatorStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/Window/Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/extent-config.xml" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Calculator.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Window/AppBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Window/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/CalculatorStepDefinition.java" />
       </list>
@@ -275,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537270573268" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537270925822" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -460,6 +453,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -572,20 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="21" selection-start-line="46" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Window/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Window/AppBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -603,12 +583,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Window/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/CalculatorStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
           </folding>
         </state>
       </provider>

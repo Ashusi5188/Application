@@ -51,8 +51,11 @@ public class CalculatorStepDefinition {
 
     private Calculator calc = calc = new Calculator();
 
+
+
     @Given("^user opens calculator application$")
     public void userOpensCalculatorApplication() throws InterruptedException {
+
 
     }
 
@@ -85,15 +88,21 @@ public class CalculatorStepDefinition {
     @Then("^User gets result$")
     public void userGetsResult() {
         try {
+            //comment
             calc.enterEqual();
             calc.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
+        ///
 
     }
 
 
-}
+    }
+
+
+
+
 
 
