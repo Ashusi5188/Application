@@ -1,4 +1,4 @@
-<<<<<<< HEAD:src/test/java/stepdefs/TestRunner.java
+
 package stepdefs;
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
