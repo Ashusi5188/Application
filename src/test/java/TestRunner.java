@@ -12,7 +12,7 @@ import java.io.File;
 @CucumberOptions(
         features = "src/test/resources/features"
         ,glue={"stepdefs"},
-        tags = {"@TC002"},
+        tags = {"@TC001"},
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"}
 )
 public class TestRunner {
