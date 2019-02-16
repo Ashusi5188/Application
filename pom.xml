@@ -54,8 +54,18 @@
             <artifactId>extentreports</artifactId>
             <version>3.1.2</version>
         </dependency>
+             dependencies {
+classpath "org.sonarsource.scanner.gradle: sonarqube-gradle-plugin:2.5"
+}
 
     </dependencies>
+         sonarqube {
+properties {
+property "sonar.host.url", http://sonar.xxxxx.com //  url is your sonar server
+property "sonar.projectName", "project  display name"   //  this name will appear in dashboard
+property "sonar.projectKey", "projectKey" // It sould be a keybased on this report is created
+property "sonar.groovy.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"    }
+}
          <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
